@@ -1,0 +1,30 @@
+{
+  "name": "stylelint-config-inveniem",
+  "version": "1.0.0",
+  "description": "Inveniem's reusable Stylelint configuration",
+  "main": "index.js",
+  "author": "John Karahalis <john.karahalis@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/inveniem/stylelint-config-inveniem#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inveniem/stylelint-config-inveniem"
+  },
+  "bugs": {
+    "url": "https://github.com/inveniem/stylelint-config-inveniem/issues"
+  },
+  "keywords": [
+    "config",
+    "css",
+    "drupal",
+    "scss",
+    "stylelint",
+    "stylelintconfig"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "stylelint": "^14.11.0",
+    "stylelint-config-drupal": "^3.1.0",
+    "stylelint-config-prettier": "^9.0.3"
+  }
+}
