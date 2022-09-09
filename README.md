@@ -11,6 +11,6 @@ configuration.
 
 ```javascript
 module.exports = {
-  "extends": "stylelint-config-inveniem",
+  extends: "stylelint-config-inveniem",
 };
 ```
