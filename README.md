@@ -5,7 +5,7 @@ configuration.
 
 ## Usage
 
-1. Run `yarn --dev @inveniem/stylelint-config`
+1. Run `yarn add --dev @inveniem/stylelint-config`
 2. Run `npx install-peerdeps --dev @inveniem/stylelint-config`
 3. Create an _.stylelintrc.js_ file with the following contents:
 
