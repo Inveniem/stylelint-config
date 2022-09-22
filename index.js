@@ -1,21 +1,21 @@
-const stylelintConfigDrupal = require("stylelint-config-drupal");
+const stylelintConfigDrupal = require('stylelint-config-drupal');
 
 module.exports = {
-  extends: ["stylelint-config-drupal", "stylelint-config-prettier"],
+  extends: ['stylelint-config-drupal', 'stylelint-config-prettier'],
   rules: {
     // This rule raises false positives on multi-line comments that use the //
     // prefix and include multiple paragraphs...
     //
     // like this.
-    "comment-no-empty": null,
+    'comment-no-empty': null,
   },
   overrides: [
     {
-      files: ["*.scss", "**/*.scss"],
+      files: ['*.scss', '**/*.scss'],
 
       extends: [
-        "stylelint-config-standard-scss",
-        "stylelint-config-prettier-scss",
+        'stylelint-config-standard-scss',
+        'stylelint-config-prettier-scss',
       ],
 
       // stylelint-config-standard-scss and stylelint-config-drupal disagree
@@ -50,7 +50,7 @@ module.exports = {
         ...stylelintConfigDrupal.rules,
 
         // Like "comment-no-empty", this rule raises false positives.
-        "scss/comment-no-empty": null,
+        'scss/comment-no-empty': null,
       },
     },
   ],
